@@ -1,0 +1,89 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Màu nền xanh nhạt */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2em;
+    color: #007acc; /* Màu xanh dương đậm cho tiêu đề */
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff; /* Nền trắng cho form */
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
+    text-align: left;
+}
+
+/* Label styling */
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #005b99;
+    margin-bottom: 10px;
+}
+
+/* Input fields styling */
+input[type="text"], input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #005b99;
+    outline: none;
+    background-color: #e6f3ff;
+}
+
+/* Submit button styling */
+#submit {
+    background-color: #007acc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #005b99;
+}
+input[type="submit"] {
+    background-color: #007acc; /* Màu nền nút submit */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005b99; /* Màu nút khi hover */
+}
